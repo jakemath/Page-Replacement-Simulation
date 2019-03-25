@@ -1,4 +1,4 @@
-# Page-Replacement-Simulation
+# Page Replacement Simulation
 
 A C program that simulates the performance of the First-In-First-Out (FIFO), Least Recently Used (LRU), and Second Chance (SC) 
 page replacement algorithms. The program represents pages in an array called 'table', corresponding page reference bits in an
