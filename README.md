@@ -9,7 +9,7 @@ is 'in.txt' file with 10000 random page requests to be used as input to the prog
 containing the expected output (page faults) for the respective algorithm for a table of size 100. To run the code, make the 
 'paging_algorithms.c' file executable in the command line. Then, enter 
 
->> cat in.txt | ./paging_algorithms <algorithm> <table size> > out.txt. 
+    >> cat in.txt | ./paging_algorithms <algorithm> <table size> > out.txt. 
 
 The options for <algorithm> are: FIFO, LRU, or SC. The table size can be any of your choosing, but to test the program against
 the output files, enter 100 for this value. The program will parse the arguments and run the chosen algorithm on the input
